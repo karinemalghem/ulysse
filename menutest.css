@@ -1,0 +1,331 @@
+/*Super bouton menu*/
+
+.nice_button {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 8%;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: rgb(255, 255, 255);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-405deg) translate(-9px, 6px) ;
+    transform: rotate(-405deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(405deg) translate(-8px, -8px) ;
+    transform: rotate(405deg) translate(-8px, -8px) ;
+}
+
+
+.block_menu {
+    margin-top: 5%;
+    height: auto;
+    padding-bottom: 10%;
+}
+
+
+
+/* .menu .pages li {
+    margin-top: 45px;
+    line-height: 10px;
+} */
+
+li {
+    display: list-item;
+    list-style-type: none;
+    /* font-size: 3rem; */
+
+}
+
+ul {
+    display: inline-block;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+       /* Taille ecriture */
+.fresh {
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+
+.stories {
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+
+.videos {
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+
+.news {
+    font-size: 4rem;
+    font-weight: bold;
+    
+}
+
+.turfu {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.mystere {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.monde {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.trend {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.weed {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.science {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.wild {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.epic {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.propos {
+    font-size: 1.6rem;
+    font-weight: bold;
+    
+}
+
+.contact {
+    font-size: 1.6rem;
+    font-weight: bold;
+    
+}
+
+.jobs {
+    font-size: 1.1rem;
+    
+}
+
+.mention {
+    font-size: 1.1rem;
+    
+}
+
+           /* separateur lien menu */
+
+.marques {
+    border-right: 1px solid rgb(248, 245, 245);
+    text-align: center;
+}
+
+.gros_menu {
+    border-right: 1px solid rgb(250, 247, 247);
+    text-align: center; 
+}
+
+/* fond ecran */
+
+.picture_menu {
+    background-color:black;
+    padding-bottom: 6%;
+}
+
+.name_site {
+    font-size: 3.8rem;
+    font-weight: bold;
+    color: white;
+}
+
+.form-control{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: white;
+    background-image: -webkit-linear-gradient(black,black,black,black);
+    border-top-color: black;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom: 2px solid indigo;
+    font-size: 1.7rem;
+} 
+
+.chichi {
+    text-align: right;
+    padding-right: 6%;
+    padding-top: 6%;
+}
+
+a {
+    color: white;
+}
+
+.humanite {
+    background-color: black;
+    color: white;
+    height: 50%;
+    width: 100%;
+    border-radius: 20px 20px 20px 20px;
+    border-image: linear-gradient(red,yellow,orange,blue,green,aqua,indigo)2;
+}
+
+.logo {
+    margin-top: -2%;
+
+}
+
+#img_msg {
+    width: 5rem;
+    height: 5rem;
+}
+                    /* coloration text au passage souris */
+.fresh:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, violet, yellow, orange, red);
+}
+
+.stories:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, indigo, violet, aqua, green);
+}
+
+.videos:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, red, pink, violet, red);
+}
+
+.news:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, blue, aqua, green, red);
+}
+
+.turfu:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, violet, yellow, orange, red);
+}
+
+.mystere:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, violet, yellow, orange, red);
+}
+
+.monde:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, violet, yellow, orange, red);
+}
+
+.trend:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, violet, yellow, orange, red);
+}
+
+.weed:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, violet, yellow, orange, red);
+}
+
+.science:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, violet, yellow, orange, red);
+}
+
+.wild:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, violet, yellow, orange, red);
+}
+
+.epic:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, violet, yellow, orange, red);
+}
+
+.propos:hover {
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, white, yellow, white, aqua);
+}
+
+
+       /* test overlay */
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+

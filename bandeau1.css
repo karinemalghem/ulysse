@@ -1,0 +1,137 @@
+.picture {
+	background-image: url(https://cdn.pixabay.com/photo/2015/05/15/14/59/lightning-bolt-768801_960_720.jpg);
+	background-size: cover;
+	height: auto;
+
+}
+.first_titre {
+	color: white;
+	font-weight: bold;
+}
+
+.subtitle {
+	margin-top: 11%;
+}
+
+.link_article {
+	margin-top: 2%;
+}
+
+.article_home {
+	font-size: 3em;
+	text-align: left;
+  color: white;
+}
+
+.article_little {
+	margin-top: 5%;
+}	
+
+.tulipe {
+	background-color: yellow;
+	color: black;
+	text-align: center;
+}
+
+a {
+	font-size: 0.8em;
+	color: white;
+}
+
+hr {
+	color: white;
+}
+
+.first_titre {
+	font-size: 4em;
+}
+
+.parti_2 {
+	margin-top: 5%;
+}
+
+.parti_1 {
+	margin-top: 5%;
+}
+
+
+/*Super bouton menu*/
+
+.nice_button {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: 8%;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+    transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+    opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+    transform: rotate(45deg) translate(-8px, -8px) ;
+}
+
+
+.title_articl {
+
+  color: black;
+  font-size: 9rem;
+  font-weight: bold;
+
+
+}
+
+.article_home:hover {
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left, violet, indigo, yellow, green, blue, orange, red);
+
+}
+
+.first_titre:hover {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left,violet, red, orange, yellow, green, blue, indigo, violet);
+
+}
+
+i:hover {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+}
+
+a:hover {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.tulipe:hover {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: -webkit-linear-gradient(left, red, orange, yellow, green, blue, indigo, violet);
+}
+
+/* #header {
+  position: absolute;
+  z-index: 2000;
+} */

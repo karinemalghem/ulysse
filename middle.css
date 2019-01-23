@@ -1,0 +1,118 @@
+#a-container-fluid{  
+    height:18em;
+    background-color:black;
+  }
+  #e-container-fluid{
+    height:8em;
+    background-color: black;
+    font-size:2em; 
+  }
+  #number1{
+    color:white;
+    margin-top:2em;
+    font-weight: bold;
+  }
+  .TURFU{
+    color:white;
+    
+  }
+  .MYSTÈRES{ 
+    color:white;
+   
+  }
+  .MONDE{
+    color:white;
+    
+  }
+  .Trends{
+    color:white;
+    
+  }
+  .Weed{
+    color:white;
+   
+  }
+  .SCIENCE{
+    color:white;
+  
+  }
+  .WILD{
+    color:white;
+  }
+  .EPIC{
+    color:white;
+    
+  }
+  
+  
+  #g-container-fluids{
+    
+  
+    background:
+      linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+      linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+      linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);  
+      height: 32em;
+  }
+  #number2{
+    color:white;
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+  .form-group{
+     width: 50%;
+    
+  }
+  .form-control{
+    margin-bottom: 5em;
+    text-align:center;
+    -webkit-background-clip: text;
+-webkit-text-fill-color: grey;
+background-image: -webkit-linear-gradient(left,chartreuse,Skyblue, indigo, red);
+ border-color: -webkit-linear-gradient(left,chartreuse,Skyblue, indigo, red);
+   }
+  .TURFU:hover{
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-image: -webkit-linear-gradient(left, indigo, violet);
+    }
+  .MYSTÈRES:hover{ 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, red, indigo);
+   }
+  .MONDE:hover{
+    
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-image: -webkit-linear-gradient(left, blue, indigo);
+  }
+  .Trends:hover{
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-image: -webkit-linear-gradient(left, red, orange);
+    
+  }
+  .Weed:hover{
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: -webkit-linear-gradient(left, green, yellow, yellow);
+  }
+  .SCIENCE:hover{
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-image: -webkit-linear-gradient(left, Skyblue, violet);
+  
+  }
+  .WILD:hover{
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-image: -webkit-linear-gradient(left, red, orange,orange, yellow);
+ }
+  .EPIC:hover{
+   -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-image: -webkit-linear-gradient(left, violet, red, red, red, red);
+  }
+  

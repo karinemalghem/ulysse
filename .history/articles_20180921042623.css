@@ -1,0 +1,77 @@
+{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -ms-overflow-style: scrollbar;
+    -webkit-tap-highlight-color: transparent;
+    text-shadow: 0 0 black;
+}
+/* 
+.title_fresh {
+	background: -webkit-linear-gradient(pink,blue);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: "GT-Walsheim-Pro-Trial-Ultra-Bold", sans-serif;
+	cursor: default;
+	font-size: 9em;
+} */
+
+
+.ligne_3 {
+	margin-top: 2em;
+	margin-bottom: 10px;
+	display: inline-block;
+	
+}
+
+.ligne_2 {
+	margin-top: 2em;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+
+.ligne_1 {
+	margin-top: 2em;
+	margin-bottom: 10px;
+	display: inline-block
+}
+
+.img-responsive .centree {
+	margin: 0 auto;
+   }
+
+
+
+
+
+.fond_image{
+background:#000000;
+/* display:inline-block; */
+}
+.fond_image img{
+-moz-transition: opacity 0.9s;
+-webkit-transition: opacity 0.9s;
+-o-transition: opacity 0.9s;
+
+}
+.fond_image img:hover{
+opacity:0;
+-moz-transition: opacity 0.7s;
+-webkit-transition: opacity 0.7s;
+-o-transition: opacity 0.7s;
+}
+
+.card-body {
+	width: auto;
+}
+
+.trotro {
+	text-align: center;
+	font-size: 7rem;
+}
+
+
